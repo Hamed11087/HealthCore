@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Image/calories-calculator.png" rel="icon" />
+  <title>HealthCore</title>
+</head>
+<body>
+  <header>
+    <label for="toggle" id="">&#9776;</label>
+    <input type="checkbox" id="toggle">
+    <nav class="Menu">
+      <a href="index.html" id="Home"><b>Home</b></a>
+      <a href="TopExercise.html" id="TopExercise"><b>Top Exercise</b></a>
+      <a href="" id="f"><img src="Image/calories-calculator.png" alt="" width="48" id="icon" style="bottom: 0;"></a>
+
+     <a href="CalorieCalculator.html" id="Calculator"><b>Calorie Calculator</b></a>
+     <a href="Contactus.html" id="Contactus"><b>Contact us</b></a>
+
+ </nav> 
+    </header>
+    <article>
+   
+  <form action="Result.html" method="get">
+    <fieldset>
+      <legend><h2>Contact Us</h2></legend>
+
+      <p>
+        <p>Name:</p>
+        <input type="text" name="name" id="name" required placeholder="First and last name" >
+      </label>
+    </p>
+      
+  <p>
+      <p>Email: </p>
+        <input type="email" name="email" id="email" required placeholder="email@gmail.com">
+      </label>
+
+    </p>
+
+  <p>
+   
+        <p>Phone:</p>
+        <input type="text" name="Phone" required id="Phone">
+      </label>
+    </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Additional Information</legend>
+      <textarea name="Feedback" rows=5 cols=45></textarea>
+    </fieldset>
+
+    <fieldset>
+      <input  type="submit" id="submit" value="Submit"></input>
+    </fieldset>
+  </form>
+</article>
+    <footer>
+      <p><a href="aboutus.html">about us</a> | <a href="map.html">sitemap</a> |<a href="Conectus.html">Contact us</a> | HealthCore@reallygreatsite.com  | 2024/11/8</p>
+  </footer>
+</body>
+</html>
+
+<style>
+    nav{padding: 0;}
+    nav{width: 0%;}
+    nav{text-align: right;}
+   nav{margin: auto;}
+    nav{text-align: right;}
+    label{display: none;}
+    label{position: relative;}
+    label{float: right;}
+    label{color: black;}
+    label{background-color: white;}
+    label{border: 1px solid black;}
+    .Menu{padding: 20px;}
+    nav a{font-size: 21px;}
+  nav{text-align: center;}
+    nav{width: 100%;}
+    nav a:link{text-decoration: none;}
+    nav a{color: white;}
+    nav a{margin: 1.5em;}
+    nav{background-color: #89babd;}
+    nav{border-bottom:2px solid black ;}
+    #toggle{display: none;}
+
+    nav a{padding :15px;}
+
+    #submit{width: 120px; height: 30px; background-color: green; color: white;}
+
+  #Contactus {background-color: white;}
+  #Contactus{color: black;}
+
+  #Contactus{ border-radius: 25px;}
+  #Contactus{ opacity: 0.7;}
+ 
+
+  #Home:hover{background-color: white;}
+  #Home:hover{color: black;}
+  #Home:hover{ border-radius: 25px;}
+  
+
+  #TopExercise:hover{background-color: white;}
+  #TopExercise:hover{color: black;}
+  #TopExercise:hover{ border-radius: 25px;}
+
+
+  #Calculator:hover{background-color: white;}
+  #Calculator:hover{color: black;}
+  #Calculator:hover{ border-radius: 25px;}
+
+
+    @media only screen and (max-width:720px){
+        label{display: block;}
+        label{padding: 7px;}
+        label{position: fixed;}
+        label{right:20px;}
+        label{top: 70px;}
+        .pic{display: none;}
+        .Menu{display: none;}
+        .Menu a{display: block;}
+        .Menu a img{display: none;}
+
+        #f{display: none;}
+
+        #Contactus{margin: auto; }
+        #Contactus{ border-radius: 0px;}
+
+        #TopExercise:hover{ border-radius: 0px;}
+        #TopExercise:hover{ margin: auto;}
+        #TopExercise{margin: auto;}
+
+        #Home{margin: 0;}
+        #Home:hover{border-radius: 0;}
+
+        #Calculator{margin: 0;}
+        #Calculator:hover{border-radius: 0 ;}
+
+        nav a{font-size: 14px;}
+        nav{width: 35%;}
+        nav{float: right;}
+        .Menu{float: right;}
+        .Menu{text-align: center; }
+        .Menu{position: fixed;}
+        .Menu{top: 6.3em;}
+        .Menu{right: 20px;}
+        .Menu{padding: 5px;}
+        label{cursor: pointer;}
+        #toggle:checked + .Menu{display: block;}
+    }
+
+    footer{text-align: center;}
+    footer{background-color: slategray;}
+    footer a:link{color: black;}
+    footer{padding: 10px;}
+
+</style>

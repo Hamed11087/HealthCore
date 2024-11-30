@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Image/calories-calculator.png" rel="icon" />
+  <title>Result Page</title>
+</head>
+<body>
+  <header>
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle">
+    <nav class="Menu">
+      <a href="index.html" id="Home"><b>Home</b></a>
+      <a href="TopExercise.html" id="TopExercise"><b>Top Exercise</b></a>
+      <a href="" id="f"><img src="Image/calories-calculator.png" alt="" width="48" id="icon" style="bottom: 0;"></a>
+
+     <a href="CalorieCalculator.html" id="Calculator"><b>Calorie Calculator</b></a>
+     <a href="Contactus.html" id="Contactus"><b>Contact us</b></a>
+
+ </nav> 
+    </header>
+  <article>
+
+    <h2>Thank You for Your Submission!</h2>
+    <p>We have received your details. Here is the information you submitted:</p>
+    <fieldset>
+    <legend><h3>Your Information</h3></legend>
+    
+  <script>
+   
+    var p = new URLSearchParams(location.search);
+    var Feddback = p.get("Feedback") || 'Not Provided'
+    document.write( "<b>Name:</b> "+p.get("name") + "<br>");
+    
+    document.write("<b>Email:</b> "+ p.get("email") + "<br>");
+  
+    document.write("<b>Phone:</b> "+ p.get("Phone") + "<br>");
+    
+    document.write( "<b>Feedback:</b> "+Feddback+ "<br>");
+    
+  
+  
+  </script>
+  </fieldset>
+  <p>We typically respond within 24-48 hours. If you have any urgent questions, feel free to contact us directly via phone or email.</p>
+  <p>To return to the homepage, click the link below:</p>
+  <p><a href="index.html">Go back to Home</a></p>
+  
+</article>
+
+<footer>
+  <p><a href="aboutus.html">about us</a> | <a href="map.html">sitemap</a> |<a href="Conectus.html">Contact us</a> | HealthCore@reallygreatsite.com  | 2024/11/8</p>
+</footer>
+
+</div>
+</body>
+</html>
+
+<style>
+nav{padding: 0;}
+nav{width: 0%;}
+nav{text-align: right;}
+nav{margin: auto;}
+nav{text-align: right;}
+label{display: none;}
+label{position: relative;}
+label{float: right;}
+label{color: black;}
+label{background-color: white;}
+label{border: 1px solid black;}
+.Menu{padding: 20px;}
+nav a{font-size: 21px;}
+nav{text-align: center;}
+nav{width: 100%;}
+nav a:link{text-decoration: none;}
+nav a{color: white;}
+nav a{margin: 1.5em;}
+nav{background-color: #89babd;}
+nav{border-bottom:2px solid black ;}
+#toggle{display: none;}
+
+nav a{padding :15px;}
+
+article a:link{text-decoration: none;}
+article a{border: 2px solid black; background-color: black; color: white;}
+
+
+h2,p{text-align: center;}
+h2{color: blue;}
+
+.back-home-btn{text-align: center;}
+
+#Contactus {background-color: white;}
+#Contactus{color: black;}
+
+#Contactus{ border-radius: 25px;}
+#Contactus{ opacity: 0.7;}
+
+
+#Home:hover{background-color: white;}
+#Home:hover{color: black;}
+#Home:hover{ border-radius: 25px;}
+
+
+#TopExercise:hover{background-color: white;}
+#TopExercise:hover{color: black;}
+#TopExercise:hover{ border-radius: 25px;}
+
+
+#Calculator:hover{background-color: white;}
+#Calculator:hover{color: black;}
+#Calculator:hover{ border-radius: 25px;}
+
+
+@media only screen and (max-width:720px){
+    label{display: block;}
+    label{padding: 7px;}
+    label{position: fixed;}
+    label{right:20px;}
+    label{top: 70px;}
+    .pic{display: none;}
+    .Menu{display: none;}
+    .Menu a{display: block;}
+    .Menu a img{display: none;}
+
+    #f{display: none;}
+
+    #Contactus{margin: auto; }
+    #Contactus{ border-radius: 0px;}
+
+    #TopExercise:hover{ border-radius: 0px;}
+    #TopExercise:hover{ margin: auto;}
+    #TopExercise{margin: auto;}
+
+    #Home{margin: 0;}
+    #Home:hover{border-radius: 0;}
+
+    #Calculator{margin: 0;}
+    #Calculator:hover{border-radius: 0 ;}
+
+    nav a{font-size: 14px;}
+    nav{width: 35%;}
+    nav{float: right;}
+    .Menu{float: right;}
+    .Menu{text-align: center; }
+    .Menu{position: fixed;}
+    .Menu{top: 6.3em;}
+    .Menu{right: 20px;}
+    .Menu{padding: 5px;}
+    label{cursor: pointer;}
+    #toggle:checked + .Menu{display: block;}
+}
+
+footer{text-align: center;}
+footer{background-color: slategray;}
+footer a:link{color: black;}
+footer{padding: 10px;}
+
+</style>
